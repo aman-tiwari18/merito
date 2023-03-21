@@ -1,0 +1,21 @@
+// import React from 'react'
+// import { Slide, useMediaQuery } from '@mui/material'
+// import logo from '../assets/career-corner-logo.jpg'
+
+// const Navbar = () => {
+//   const isMediaMax1025px = useMediaQuery('(max-width: 1025px)')
+//   console.log(isMediaMax1025px)
+//     return (
+//         <div className = "flex justify-between py-6 h-[16vh] bg-green px-4">
+//             <div>
+//             <img src = {logo} alt = "search" className='shadow-2xl shadow-gray-800' />
+//             </div>
+//             <div>
+                
+//             </div>
+//            helo
+//         </div>
+//     )
+// }
+
+// export default Navbar
