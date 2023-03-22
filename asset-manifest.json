@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/merito/static/css/main.19ef4a4f.css",
-    "main.js": "/merito/static/js/main.b5e6fc7d.js",
+    "main.css": "/merito/static/css/main.42ad8add.css",
+    "main.js": "/merito/static/js/main.a009973b.js",
     "static/media/career-corner-logo.jpg": "/merito/static/media/career-corner-logo.5b942cd270058b1caec0.jpg",
     "static/media/social3.webp": "/merito/static/media/social3.e422b4063036827cad9c.webp",
     "static/media/social2.webp": "/merito/static/media/social2.ed8aa8adeb62b55a0736.webp",
@@ -10,11 +10,11 @@
     "static/media/social1.webp": "/merito/static/media/social1.9263a30d9865faec80ee.webp",
     "static/media/social4.webp": "/merito/static/media/social4.383f72749d2826e411cd.webp",
     "index.html": "/merito/index.html",
-    "main.19ef4a4f.css.map": "/merito/static/css/main.19ef4a4f.css.map",
-    "main.b5e6fc7d.js.map": "/merito/static/js/main.b5e6fc7d.js.map"
+    "main.42ad8add.css.map": "/merito/static/css/main.42ad8add.css.map",
+    "main.a009973b.js.map": "/merito/static/js/main.a009973b.js.map"
   },
   "entrypoints": [
-    "static/css/main.19ef4a4f.css",
-    "static/js/main.b5e6fc7d.js"
+    "static/css/main.42ad8add.css",
+    "static/js/main.a009973b.js"
   ]
 }
