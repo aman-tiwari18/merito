@@ -11,21 +11,21 @@ const SocialInitiatives = () => {
         <div className='px-[200px] py-12 grid  gap-5'>
             <div className="col-span-2 row-span-1">
             <div className="grid-cols-2 grid gap-5">
-                <div className = "flex rounded-md h-96">
-                <img  alt = "b1" src={social1} className='h-full w-full aspect-video'/>
+                <div className = "flex rounded-md h-96  hover:bg-[#f92424]">
+                <img  alt = "b1" src={social1} className='h-full w-full aspect-video  hover:translate-y-16 hover:h-80'/>
                 </div>
-                <div className = "flex rounded-md h-96 ">
-                <img src = {social2} alt= "b2" className='w-full aspect-video'/>
+                <div className = "flex rounded-md h-96  hover:bg-[#f92424] ">
+                <img src = {social2} alt= "b2" className='w-full aspect-video hover:translate-y-16 hover:h-80'/>
                 </div>
             </div>
             </div>
             <div className="col-span-2 row-span-1">
             <div className="grid-cols-2 grid gap-5">
-                <div className = "flex rounded-md h-96">
-                <img  alt = "b1" src={social3} className='h-full w-full aspect-video'/>
+                <div className = "flex rounded-md h-96  hover:bg-[#f92424]">
+                <img  alt = "b1" src={social3} className='h-full w-full aspect-video hover:translate-y-16 hover:h-80'/>
                 </div>
-                <div className = "flex rounded-md h-96 ">
-                <img src = {social4} alt= "b2" className='w-full aspect-video'/>
+                <div className = "flex rounded-md h-96  hover:bg-[#f92424] ">
+                <img src = {social4} alt= "b2" className='w-full aspect-video hover:translate-y-16 hover:h-80'/>
                 </div>
             </div>
             </div>

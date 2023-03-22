@@ -14,7 +14,7 @@ const OurBrands = () => {
               <img  alt = "b1" src={brand1} className=' w-full aspect-video hover:translate-y-16 hover:h-80'/>
             </div>
             <div className = "flex rounded-md h-96 hover:bg-[#f92424] ">
-              <img src = {brand2} alt= "b2" className='w-full aspect-video hover:translate-y-16'/>
+              <img src = {brand2} alt= "b2" className='w-full aspect-video hover:translate-y-16 hover:h-80'/>
             </div>
           </div>
         </div>
