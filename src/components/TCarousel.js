@@ -101,9 +101,9 @@ const TCarousel = () => {
           ref={carousel}
           className="carousel-container relative  flex w-1/6 items-center overflow-hidden scroll-smooth snap-x snap-mandatory "
         >
-          {data.testimonials.map((test, index) => {
+          {data.testimonials.map((test, i) => {
             return (
-                <div className='text-center w-full h-full key={index} className="carousel-item text-center relative  rounded-full snap-start '>
+                <div className='text-center w-full h-full key={i} className="carousel-item text-center relative  rounded-full snap-start '>
                     <div >
                         <div className=" aspect-auto rounded-full h-64 w-64 block bg-origin-padding bg-left-top bg-cover bg-no-repeat z-0"
                             style={{ backgroundImage: `url(${test.imageUrl || ''})` }}>  

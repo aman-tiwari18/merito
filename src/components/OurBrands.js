@@ -8,12 +8,13 @@ const OurBrands = () => {
         <div className='text-5xl flex justify-center font-bold text-[#FF9900]'> Our Brands</div>
         <div className='px-[200px] py-12'>
         <div className="col-span-2 row-span-1">
-          <div className="grid-cols-2 grid gap-4">
-            <div className = "flex rounded-md h-96">
-              <img  alt = "b1" src={brand1} className='h-full w-full aspect-video'/>
+          <div className="grid-cols-2  grid gap-4">
+
+            <div className = "flex rounded-md  hover:bg-[#f92424]  h-96">
+              <img  alt = "b1" src={brand1} className=' w-full aspect-video hover:translate-y-16 hover:h-80'/>
             </div>
-            <div className = "flex rounded-md h-96 ">
-              <img src = {brand2} alt= "b2" className='w-full aspect-video'/>
+            <div className = "flex rounded-md h-96 hover:bg-[#f92424] ">
+              <img src = {brand2} alt= "b2" className='w-full aspect-video hover:translate-y-16'/>
             </div>
           </div>
         </div>

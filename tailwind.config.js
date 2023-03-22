@@ -10,6 +10,17 @@ module.exports = {
 
       }
     },
+    screens:{
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+
+    },
+    animation :{
+      fade : 'slide_down_out_in_1s_ease_in_out'
+    }
   },
   plugins: [],
 }

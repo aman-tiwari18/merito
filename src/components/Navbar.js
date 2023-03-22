@@ -10,14 +10,13 @@ const Navbar = () => {
 //   const isMediaMax1025px = useMediaQuery('(max-width: 1025px)')
 
     return (
-        <div className = "flex justify-between py-6 px-[100px] bg-red">
+        <div className = "flex md:justify-between sm:justify-center py-6 lg:px-[100px] md:[80px] sm:px-[20px]  bg-red">
             <div>
-            <img src = {logo} alt = "search" style= {{height: "90px" ,width:"120px"}} className='shadow-2xl shadow-gray-800' />
+            <img src = {logo} alt = "search"  className='shadow-2xl shadow-gray-800 lg:h-[90px] lg:w-[120px] sm:h-[60px] sm:w-[80px] md:h-[80px] md:w-[100px]' />
             </div>
-            <div className = " text-md font-semibold flex text-black  gap-16 items-center">
-                <ul></ul>
+            <div className = " text-md font-semibold flex text-black items-center  gap-16 ">
+                
                 <ul className = "hover:text-gray-100 hover:cursor-pointer">OUR PROGRAMS</ul>   
-    
                 <ul className = "hover:text-gray-100 hover:cursor-pointer">OUR STORY</ul>
                 <ul className = "hover:text-gray-100 hover:cursor-pointer">OUR BRANDS</ul>
                 <ul className = "hover:text-gray-100 hover:cursor-pointer">SOCIAL INITIATIVES</ul>
